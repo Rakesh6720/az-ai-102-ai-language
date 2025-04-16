@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\01-analyze-text\\C-Sharp\\text-analysis\\text-analysis.csproj": {}
+    "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\01-analyze-text\\c-sharp\\text-analysis\\text-analysis.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\01-analyze-text\\C-Sharp\\text-analysis\\text-analysis.csproj": {
+    "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\01-analyze-text\\c-sharp\\text-analysis\\text-analysis.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\01-analyze-text\\C-Sharp\\text-analysis\\text-analysis.csproj",
+        "projectUniqueName": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\01-analyze-text\\c-sharp\\text-analysis\\text-analysis.csproj",
         "projectName": "text-analysis",
-        "projectPath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\01-analyze-text\\C-Sharp\\text-analysis\\text-analysis.csproj",
+        "projectPath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\01-analyze-text\\c-sharp\\text-analysis\\text-analysis.csproj",
         "packagesPath": "C:\\Users\\rbaruah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\01-analyze-text\\C-Sharp\\text-analysis\\obj\\",
+        "outputPath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\01-analyze-text\\c-sharp\\text-analysis\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

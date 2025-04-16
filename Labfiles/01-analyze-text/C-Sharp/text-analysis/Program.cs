@@ -43,17 +43,41 @@ namespace text_analysis
                     Console.WriteLine($"\nLanguage: {detectedLanguage.Name}");
 
                     // Get sentiment
-
+                    DocumentSentiment documentSentiment = aiClient.AnalyzeSentiment(text);
+                    Console.WriteLine($"\nSentiment: {documentSentiment.Sentiment}");
 
                     // Get key phrases
-
+                    KeyPhraseCollection phrases = aiClient.ExtractKeyPhrases(text);
+                    if (phrases.Count > 0)
+                    {
+                        Console.WriteLine("\nKey phrases:");
+                        foreach (string phrase in phrases)
+                        {
+                            Console.WriteLine($"\t{phrase}");
+                        }
+                    }
 
                     // Get entities
-
+                    CategorizedEntityCollection entities = aiClient.RecognizeEntities(text);
+                    if (entities.Count > 0)
+                    {
+                        Console.WriteLine("\nEntities:");
+                        foreach (CategorizedEntity entity in entities)
+                        {
+                            Console.WriteLine($"\t{entity.Text} ({entity.Category})");
+                        }
+                    }
 
                     // Get linked entities
-
-
+                    LinkedEntityCollection linkedEntities = aiClient.RecognizeLinkedEntities(text);
+                    if (linkedEntities.Count > 0)
+                    {
+                        Console.WriteLine("\nLinked entities:");
+                        foreach (LinkedEntity entity in linkedEntities)
+                        {
+                            Console.WriteLine($"\t{entity.Name} ({entity.DataSource})");
+                        }
+                    }
                 }
             }
             catch (Exception ex)

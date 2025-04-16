@@ -4,7 +4,8 @@ using System.Text;
 using Microsoft.Extensions.Configuration;
 
 // Import namespaces
-
+using Azure;
+using Azure.AI.TextAnalytics;
 
 namespace text_analysis
 {
@@ -24,7 +25,7 @@ namespace text_analysis
 
 
                 // Analyze each text file in the reviews folder
-                var folderPath = Path.GetFullPath("./reviews");  
+                var folderPath = Path.GetFullPath("./reviews");
                 DirectoryInfo folder = new DirectoryInfo(folderPath);
                 foreach (var file in folder.GetFiles("*.txt"))
                 {

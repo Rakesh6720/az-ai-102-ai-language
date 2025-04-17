@@ -1,7 +1,7 @@
 {
   "version": 2,
   "dgSpecHash": "u3nuL3xYbDE=",
-  "success": false,
+  "success": true,
   "projectFilePath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\07-speech\\C-Sharp\\speaking-clock\\speaking-clock.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rbaruah\\.nuget\\packages\\microsoft.cognitiveservices.speech\\1.30.0\\microsoft.cognitiveservices.speech.1.30.0.nupkg.sha512",
@@ -19,12 +19,6 @@
     "C:\\Users\\rbaruah\\.nuget\\packages\\system.windows.extensions\\4.6.0\\system.windows.extensions.4.6.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://pkgs.dev.azure.com/crisispreventioninstitute/_packaging/CPI_Software_Framework/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized).",
-      "libraryId": "System.Windows.Extensions"
-    },
     {
       "code": "NU1900",
       "level": "Warning",

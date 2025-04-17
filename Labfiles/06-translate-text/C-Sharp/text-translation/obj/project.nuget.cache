@@ -1,7 +1,7 @@
 {
   "version": 2,
   "dgSpecHash": "0ViR8IeOXs4=",
-  "success": false,
+  "success": true,
   "projectFilePath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\06-translate-text\\C-Sharp\\text-translation\\translate_text.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rbaruah\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
@@ -15,12 +15,6 @@
     "C:\\Users\\rbaruah\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1301",
-      "level": "Error",
-      "message": "Unable to load the service index for source https://pkgs.dev.azure.com/crisispreventioninstitute/_packaging/CPI_Software_Framework/nuget/v3/index.json.\r\n  Response status code does not indicate success: 401 (Unauthorized).",
-      "libraryId": "Newtonsoft.Json"
-    },
     {
       "code": "NU1900",
       "level": "Warning",

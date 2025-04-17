@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1lcmpmSl4+o=",
+  "dgSpecHash": "tlBOyz6q3+Y=",
   "success": true,
-  "projectFilePath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\02-qna\\C-Sharp\\qna-app\\qna-app.csproj",
+  "projectFilePath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\labfiles\\02-qna\\c-sharp\\qna-app\\qna-app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rbaruah\\.nuget\\packages\\azure.ai.language.questionanswering\\1.1.0\\azure.ai.language.questionanswering.1.1.0.nupkg.sha512",
     "C:\\Users\\rbaruah\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",

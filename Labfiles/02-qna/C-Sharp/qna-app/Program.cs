@@ -30,7 +30,21 @@ namespace qna_app
                 QuestionAnsweringClient aiClient = new QuestionAnsweringClient(endpoint, credentials);
 
                 // Submit a question and display the answer
-
+                string user_question = "";
+                while (true)
+                {
+                    Console.WriteLine("Question: ");
+                    user_question = Console.ReadLine();
+                    if (user_question.ToLower() == "quit") break;
+                    QuestionAnsweringProject project = new QuestionAnsweringProject(projectName, deploymentName);
+                    Response<AnswersResult> response = aiClient.GetAnswers(user_question, project);
+                    foreach (KnowledgeBaseAnswer answer in response.Value.Answers)
+                    {
+                        Console.WriteLine($"Answer: {answer.Answer}");
+                        Console.WriteLine($"Confidence: {answer.Confidence:P2}");
+                        Console.WriteLine($"Source: {answer.Source}");
+                    }
+                }
 
             }
             catch (Exception ex)

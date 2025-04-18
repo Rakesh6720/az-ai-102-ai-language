@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gmGJUUEaqX4=",
+  "dgSpecHash": "P6GBiWXm+XA=",
   "success": true,
   "projectFilePath": "C:\\Users\\rbaruah\\dev\\projects\\ai\\az-ai-102-prep\\nlp-analyze-text\\mslearn-ai-language\\Labfiles\\03-language\\C-Sharp\\clock-client\\clock_client.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\rbaruah\\.nuget\\packages\\azure.ai.language.conversations\\1.0.0\\azure.ai.language.conversations.1.0.0.nupkg.sha512",
+    "C:\\Users\\rbaruah\\.nuget\\packages\\azure.ai.language.conversations\\1.1.0\\azure.ai.language.conversations.1.1.0.nupkg.sha512",
     "C:\\Users\\rbaruah\\.nuget\\packages\\azure.core\\1.33.0\\azure.core.1.33.0.nupkg.sha512",
     "C:\\Users\\rbaruah\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\rbaruah\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.3\\microsoft.extensions.configuration.3.1.3.nupkg.sha512",
